@@ -1,0 +1,24 @@
+:root {
+  --boxshadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.1);
+}
+.brdrshdow {
+  box-shadow: var(--boxshadow);
+}
+form {
+  --bg-light: #efefef;
+  --bg-dark: #707070;
+  --clr: #58bc82;
+  --clr-alpha: #9c9c9c60;
+}
+.navbar-brand img {
+  height: 50px;
+}
+.home {
+  background-image: url("./assets/imgs/BG.gif");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-title {
+  color: white;
+}
